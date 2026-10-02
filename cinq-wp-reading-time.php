@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name: CINQ Reading Time
- * Plugin URI: https://github.com/agencecinq/cinq-reading-time
+ * Plugin URI: https://github.com/agencecinq/cinq-wp-reading-time
  * Description: Stores an estimated reading time (minutes) on posts. Returns a raw integer.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: CINQ
  * Author URI: https://agencecinq.com/
  * Requires at least: 6.0
  * Requires PHP: 8.1
- * Text Domain: cinq-reading-time
+ * Text Domain: cinq-wp-reading-time
  *
  * @package CinqReadingTime
  */

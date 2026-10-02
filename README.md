@@ -2,6 +2,8 @@
 
 WordPress plugin that stores an estimated reading time (minutes) on posts and exposes a raw integer API. No settings screen.
 
+**Repository:** [`agencecinq/cinq-wp-reading-time`](https://github.com/agencecinq/cinq-wp-reading-time)
+
 ## Requirements
 
 - WordPress 6.0+
@@ -12,19 +14,19 @@ WordPress plugin that stores an estimated reading time (minutes) on posts and ex
 Copy the single file into `mu-plugins` (WordPress loads PHP files in that folder automatically; no activation step):
 
 ```bash
-cp cinq-reading-time.php wp-content/mu-plugins/
+cp cinq-wp-reading-time.php wp-content/mu-plugins/
 ```
 
 Or clone the repo and symlink:
 
 ```bash
-git clone git@github.com:agencecinq/cinq-reading-time.git
-ln -s "$(pwd)/cinq-reading-time/cinq-reading-time.php" wp-content/mu-plugins/cinq-reading-time.php
+git clone git@github.com:agencecinq/cinq-wp-reading-time.git
+ln -s "$(pwd)/cinq-wp-reading-time/cinq-wp-reading-time.php" wp-content/mu-plugins/cinq-wp-reading-time.php
 ```
 
 ## Install as a regular plugin
 
-1. Copy the folder to `wp-content/plugins/cinq-reading-time`
+1. Copy the folder to `wp-content/plugins/cinq-wp-reading-time`
 2. Activate **CINQ Reading Time** in the WordPress admin
 
 ## API
